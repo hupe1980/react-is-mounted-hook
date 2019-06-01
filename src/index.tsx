@@ -1,1 +1,3 @@
-export * from './use-is-mounted';
+import useIsMounted from './use-is-mounted';
+
+export default useIsMounted;

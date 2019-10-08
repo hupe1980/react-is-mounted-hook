@@ -36,7 +36,7 @@ const FetchComponent = () => {
     };
 
     fetchData();
-  }, []);
+  }, [isMounted]);
 
   return data ? <Result data={data} /> : <Loading />;
 };

@@ -23,7 +23,7 @@ import Result from './result';
 
 const FetchComponent = () => {
   const isMounted = useIsMounted();
-  const [data, setdata] = useState(null);
+  const [data, setData] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,7 +36,7 @@ const FetchComponent = () => {
     };
 
     fetchData();
-  }, []);
+  }, [isMounted]);
 
   return data ? <Result data={data} /> : <Loading />;
 };

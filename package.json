@@ -1,6 +1,6 @@
 {
   "name": "react-is-mounted-hook",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "React hook to check if the component is still mounted",
   "keywords": [
     "react",
@@ -25,8 +25,8 @@
     "prepare": "npm run build"
   },
   "peerDependencies": {
-    "react": "^16.8.6 || >17",
-    "react-dom": "^16.8.6 || >17"
+    "react": "^16.8.6 || ^17",
+    "react-dom": "^16.8.6 || ^17"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
